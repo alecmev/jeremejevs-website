@@ -2,10 +2,10 @@ var backgroundAltered = false;
 
 function updateBackground()
 {
-    if ($(window).width() < 1004)
+    if ($(window).width() < 804)
     {
         backgroundAltered = true;
-        $('body').css('background-position', (-129 - $(document).scrollLeft()) + 'px 0px');
+        $('body').css('background-position', (-229 - $(document).scrollLeft()) + 'px 0px');
     }
     else if (backgroundAltered)
     {
