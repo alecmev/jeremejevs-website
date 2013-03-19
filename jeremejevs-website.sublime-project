@@ -1,4 +1,13 @@
 {
+    "build_systems":
+    [
+        {
+            "name": "#",
+            "working_dir": "$project_path",
+            "cmd": "deploy.bat"
+        }
+    ],
+
 	"folders":
 	[
 		{
