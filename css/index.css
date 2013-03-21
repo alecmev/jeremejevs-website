@@ -55,13 +55,7 @@
     }
 }
 
-body
-{
-    background-image: url('../images/background.png');
-    background-position: center top; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+/* UNIVERSAL STYLES */
 
 .left
 {
@@ -71,6 +65,16 @@ body
 .right
 {
     float: right;
+}
+
+/* SPECIFIC STYLES */
+
+body
+{
+    background-image: url('../images/background.png');
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .main
@@ -93,11 +97,13 @@ body
 .header-main
 {
     font-size: 32px;
+    cursor: default;
 }
 
 .header-normal
 {
     font-size: 24px;
+    cursor: default;
 }
 
 .column-left
