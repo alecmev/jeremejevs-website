@@ -1,25 +1,58 @@
 @font-face
 {
-    font-family: 'ColaborateThinRegular';
-    src: url('../fonts/ColabThi-webfont.eot');
-    src: url('../fonts/ColabThi-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ColabThi-webfont.woff') format('woff'),
-         url('../fonts/ColabThi-webfont.ttf') format('truetype'),
-         url('../fonts/ColabThi-webfont.svg#ColaborateThinRegular') format('svg');
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Lig-webfont.eot');
+    src: url('../fonts/Lato-Lig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Lig-webfont.woff') format('woff'),
+         url('../fonts/Lato-Lig-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Lig-webfont.svg') format('svg');
     font-weight: normal;
-    font-style: normal;
 }
 
 @font-face
 {
-    font-family: 'ColaborateMediumRegular';
-    src: url('../fonts/ColabMed-webfont.eot');
-    src: url('../fonts/ColabMed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ColabMed-webfont.woff') format('woff'),
-         url('../fonts/ColabMed-webfont.ttf') format('truetype'),
-         url('../fonts/ColabMed-webfont.svg#ColaborateMediumRegular') format('svg');
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bla-webfont.eot');
+    src: url('../fonts/Lato-Bla-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato-Bla-webfont.woff') format('woff'),
+         url('../fonts/Lato-Bla-webfont.ttf') format('truetype'),
+         url('../fonts/Lato-Bla-webfont.svg') format('svg');
+    font-weight: bold;
+}
+
+@font-face
+{
+    font-family: 'PTSans';
+    src: url('../fonts/PTS55F-webfont.eot');
+    src: url('../fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PTS55F-webfont.woff') format('woff'),
+         url('../fonts/PTS55F-webfont.ttf') format('truetype'),
+         url('../fonts/PTS55F-webfont.svg') format('svg');
     font-weight: normal;
-    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+{
+    @font-face
+    {
+        font-family: 'Lato';
+        src: url('../fonts/Lato-Lig-webfont.svg') format('svg');
+        font-weight: normal;
+    }
+
+    @font-face
+    {
+        font-family: 'Lato';
+        src: url('../fonts/Lato-Bla-webfont.svg') format('svg');
+        font-weight: bold;
+    }
+
+    @font-face
+    {
+        font-family: 'PTSans';
+        src: url('../fonts/PTS55F-webfont.svg') format('svg');
+        font-weight: normal;
+    }
 }
 
 body
@@ -76,7 +109,8 @@ body
 
 .header-left
 {
-    font-family: 'ColaborateThinRegular';
+    font-family: 'Lato';
+    font-weight: normal;
     text-align: right;
 }
 
@@ -88,14 +122,16 @@ body
 
 .header-right
 {
-    font-family: 'ColaborateMediumRegular';
+    font-family: 'Lato';
+    font-weight: bold;
 }
 
 .content-right
 {
     clear: both;
-    font-family: 'Times New Roman';
-    font-size: 16px;
+    font-family: 'PTSans';
+    font-weight: normal;
+    font-size: 14px;
     text-align: justify;
 }
 
