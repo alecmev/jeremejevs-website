@@ -1,23 +1,26 @@
 {
-  "name": "jeremejevs-website",
-  "version": "0.0.0",
-  "description": "My website.",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jeremejevs/jeremejevs-website.git"
-  },
-  "author": "Olegs Jeremejevs",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jeremejevs/jeremejevs-website/issues"
-  },
-  "homepage": "https://github.com/jeremejevs/jeremejevs-website",
-  "dependencies": {
-    "logfmt": "~0.18.1",
-    "express": "~3.4.7"
-  }
+    "author": "Olegs Jeremejevs",
+    "bugs": {
+        "url": "https://github.com/jeremejevs/jeremejevs-website/issues"
+    },
+    "dependencies": {
+        "express": "~3.4.7",
+        "logfmt": "~0.18.1"
+    },
+    "description": "My website.",
+    "engines": {
+        "node": "0.10.x"
+    },
+    "homepage": "https://github.com/jeremejevs/jeremejevs-website",
+    "license": "MIT",
+    "main": "web.js",
+    "name": "jeremejevs-website",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jeremejevs/jeremejevs-website.git"
+    },
+    "scripts": {
+        "start": "web.js"
+    },
+    "version": "0.0.0"
 }
