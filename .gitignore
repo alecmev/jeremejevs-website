@@ -1,3 +1,4 @@
+node_modules/
+
 *.sublime-workspace
-deploy.bat
-olegs-jeremejevs-curriculum-vitae.pdf
+npm-debug.log
