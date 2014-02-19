@@ -1,23 +1,5 @@
-var https = require('https');
+var express = require('express');
+var app = express();
 
-var request_options = 
-{
-    host: 'api.github.com',
-    headers: {'user-agent': 'My ass'},
-    path: '/users/jeremejevs/repos'
-};
-
-https.get(request_options, function(res) {
-  var body = '';
-
-    res.on('data', function(chunk) {
-        body += chunk;
-    });
-
-    res.on('end', function() {
-        var fbResponse = JSON.parse(body);
-        console.log("Got response: ", fbResponse.length);
-    });
-});
-
-// USE EJS, LUKE
+app.use(express.static(__dirname + '/public'));
+app.listen(5387);
