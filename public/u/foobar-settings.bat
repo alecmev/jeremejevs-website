@@ -1,3 +1,0 @@
-@ECHO OFF
-
-MKLINK /D "%APPDATA%\foobar2000" "%DROPBOX%\foobar2000"
