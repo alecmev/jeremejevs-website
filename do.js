@@ -69,9 +69,11 @@ case 'deploy': {
 
     var res = 0;
     res += shell.Run('git push server master', 0, true);
+    var git = shell.Exec('where git').StdOut.ReadAll();
+    var ssh = '"' + git.substr(0, git.length - 13) + 'bin\\ssh.exe"';
     if (!res) {
         res += shell.Run(
-            'ssh root@jeremejevs.com "' +
+            ssh + ' root@jeremejevs.com "' +
                 'cd /root/jeremejevs.git && ' +
                 'git reset --hard && ' +
                 '/root/jeremejevs.sh' +
