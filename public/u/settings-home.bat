@@ -7,12 +7,12 @@ DEL "%USERPROFILE%\.gitconfig"
 DEL "%USERPROFILE%\.pylintrc"
 DEL "%USERPROFILE%\cmdrc.bat"
 
-MKLINK /D "%USERPROFILE%\.ssh" "%GOOGLE%\settings\home\.ssh"
-MKLINK /D "%USERPROFILE%\Links" "%GOOGLE%\settings\home\Links"
-MKLINK "%USERPROFILE%\.jshintrc" "%GOOGLE%\settings\home\.jshintrc"
-MKLINK "%USERPROFILE%\.gitconfig" "%GOOGLE%\settings\home\.gitconfig"
-MKLINK "%USERPROFILE%\.pylintrc" "%GOOGLE%\settings\home\.pylintrc"
-MKLINK "%USERPROFILE%\cmdrc.bat" "%GOOGLE%\settings\home\cmdrc.bat"
+MKLINK /D "%USERPROFILE%\.ssh" "%SETTINGS%\home\.ssh"
+MKLINK /D "%USERPROFILE%\Links" "%SETTINGS%\home\Links"
+MKLINK "%USERPROFILE%\.jshintrc" "%SETTINGS%\home\.jshintrc"
+MKLINK "%USERPROFILE%\.gitconfig" "%SETTINGS%\home\.gitconfig"
+MKLINK "%USERPROFILE%\.pylintrc" "%SETTINGS%\home\.pylintrc"
+MKLINK "%USERPROFILE%\cmdrc.bat" "%SETTINGS%\home\cmdrc.bat"
 
 SET HOME=%USERPROFILE%
 SETX HOME "%HOME%" >NUL
